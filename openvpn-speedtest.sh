@@ -94,5 +94,5 @@ done
 # Display the server with the fastest download speed
 echo "Server with the fastest download speed: $fastest_server (Download Speed: $fastest_speed Mbit/s)"
 
-# Create a new screen session named "OpenVPN" and connect to the fastest server
+# Create a new screen session named "OpenVPN" and connect to the fastest OpenVPN server
 sudo screen -S OpenVPN -d -m sudo openvpn --config "${SERVERS[$fastest_server]}"
