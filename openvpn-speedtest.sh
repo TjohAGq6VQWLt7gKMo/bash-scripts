@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-# Script: speedtest.sh
+# Script: openvpn-speedtest.sh
 # Author: OpenAI GPT-3, with modifications
 # Description: This script performs internet speed tests using speedtest-cli
 # through different OpenVPN servers. It requires speedtest-cli, OpenVPN, bc,
